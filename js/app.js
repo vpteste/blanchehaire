@@ -3,29 +3,29 @@
 const WHATSAPP_NUMBER = '2250799030589';
 
 const products = [
-    { id: 1, name: 'Perruque Body Wave 18"', type: 'body-wave', length: '18', color: 'naturel', price: 75000, status: 'disponible', badge: 'disponible', image: 'img/vente perruque.jpg', description: 'Perruque body wave en cheveux naturels, souple et brillante.' },
-    { id: 2, name: 'Perruque Straight 20"', type: 'straight', length: '20', color: 'naturel', price: 80000, status: 'best', badge: 'best', image: 'img/vente perruque2.jpg', description: 'Perruque lisse et soyeuse, finition naturelle.' },
-    { id: 3, name: 'Perruque Deep Wave 16"', type: 'deep-wave', length: '16', color: 'brun', price: 70000, status: 'disponible', badge: 'disponible', image: 'img/vente-perruque.jpg', description: 'Ondulations profondes et définies pour un look glamour.' },
-    { id: 4, name: 'Perruque Curly 14"', type: 'curly', length: '14', color: 'naturel', price: 65000, status: 'nouveau', badge: 'nouveau', image: 'img/tresses.jpg', description: 'Boucles rebondies et volumineuses, parfaites au quotidien.' },
-    { id: 5, name: 'Perruque Bob 12"', type: 'bob', length: '12', color: 'naturel', price: 55000, status: 'disponible', badge: 'disponible', image: 'img/coupe femme.jpg', description: 'Coupe bob moderne et élégante, facile à coiffer.' },
-    { id: 6, name: 'Perruque Lace Front 22"', type: 'lace-front', length: '22', color: 'naturel', price: 95000, status: 'best', badge: 'best', image: 'img/tress2.jpg', description: 'Lace front pour une ligne de cheveux ultra-naturelle.' },
-    { id: 7, name: 'Perruque HD Lace 24"', type: 'hd-lace', length: '24', color: 'ombré', price: 130000, status: 'nouveau', badge: 'nouveau', image: 'img/tresse.jpg', description: 'HD Lace invisible, rendu photoréaliste garanti.' },
-    { id: 8, name: 'Perruque Personnalisée', type: 'lace-front', length: '20', color: 'blond', price: 150000, status: 'nouveau', badge: 'nouveau', image: 'img/tresse1.jpg', description: 'Création sur mesure selon vos envies et votre morphologie.' },
-    { id: 9, name: 'Perruque Body Wave 26"', type: 'body-wave', length: '26', color: 'naturel', price: 90000, status: 'disponible', badge: 'disponible', image: 'img/coupe2.jpg', description: 'Longueurs spectaculaires, mouvement naturel.' },
-    { id: 10, name: 'Perruque Straight 16"', type: 'straight', length: '16', color: 'roux', price: 70000, status: 'disponible', badge: 'disponible', image: 'img/coupes.jpg', description: 'Lisse rouge cuivré, couleur vibrante et durable.' },
-    { id: 11, name: 'Perruque Curly 18"', type: 'curly', length: '18', color: 'naturel', price: 85000, status: 'best', badge: 'best', image: 'img/chion.jpg', description: 'Boucles généreuses et définies, volume exceptionnel.' },
-    { id: 12, name: 'Perruque Bob 14"', type: 'bob', length: '14', color: 'ombré', price: 60000, status: 'disponible', badge: 'disponible', image: 'img/chions.jpg', description: 'Bob ombré tendance, coupe structurée et moderne.' }
+    { id: 1, name: 'Perruque Body Wave 18"', type: 'body-wave', length: '18', color: 'naturel', price: 75000, status: 'disponible', badge: 'disponible', image: 'img/vente perruque.webp', description: 'Perruque body wave en cheveux naturels, souple et brillante.' },
+    { id: 2, name: 'Perruque Straight 20"', type: 'straight', length: '20', color: 'naturel', price: 80000, status: 'best', badge: 'best', image: 'img/vente perruque2.webp', description: 'Perruque lisse et soyeuse, finition naturelle.' },
+    { id: 3, name: 'Perruque Deep Wave 16"', type: 'deep-wave', length: '16', color: 'brun', price: 70000, status: 'disponible', badge: 'disponible', image: 'img/vente-perruque.webp', description: 'Ondulations profondes et définies pour un look glamour.' },
+    { id: 4, name: 'Perruque Curly 14"', type: 'curly', length: '14', color: 'naturel', price: 65000, status: 'nouveau', badge: 'nouveau', image: 'img/tresses.webp', description: 'Boucles rebondies et volumineuses, parfaites au quotidien.' },
+    { id: 5, name: 'Perruque Bob 12"', type: 'bob', length: '12', color: 'naturel', price: 55000, status: 'disponible', badge: 'disponible', image: 'img/coupe femme.webp', description: 'Coupe bob moderne et élégante, facile à coiffer.' },
+    { id: 6, name: 'Perruque Lace Front 22"', type: 'lace-front', length: '22', color: 'naturel', price: 95000, status: 'best', badge: 'best', image: 'img/tress2.webp', description: 'Lace front pour une ligne de cheveux ultra-naturelle.' },
+    { id: 7, name: 'Perruque HD Lace 24"', type: 'hd-lace', length: '24', color: 'ombré', price: 130000, status: 'nouveau', badge: 'nouveau', image: 'img/tresse.webp', description: 'HD Lace invisible, rendu photoréaliste garanti.' },
+    { id: 8, name: 'Perruque Personnalisée', type: 'lace-front', length: '20', color: 'blond', price: 150000, status: 'nouveau', badge: 'nouveau', image: 'img/tresse1.webp', description: 'Création sur mesure selon vos envies et votre morphologie.' },
+    { id: 9, name: 'Perruque Body Wave 26"', type: 'body-wave', length: '26', color: 'naturel', price: 90000, status: 'disponible', badge: 'disponible', image: 'img/coupe2.webp', description: 'Longueurs spectaculaires, mouvement naturel.' },
+    { id: 10, name: 'Perruque Straight 16"', type: 'straight', length: '16', color: 'roux', price: 70000, status: 'disponible', badge: 'disponible', image: 'img/coupes.webp', description: 'Lisse rouge cuivré, couleur vibrante et durable.' },
+    { id: 11, name: 'Perruque Curly 18"', type: 'curly', length: '18', color: 'naturel', price: 85000, status: 'best', badge: 'best', image: 'img/chion.webp', description: 'Boucles généreuses et définies, volume exceptionnel.' },
+    { id: 12, name: 'Perruque Bob 14"', type: 'bob', length: '14', color: 'ombré', price: 60000, status: 'disponible', badge: 'disponible', image: 'img/chions.webp', description: 'Bob ombré tendance, coupe structurée et moderne.' }
 ];
 
 const galleryImages = [
-    { src: 'img/coupe femme.jpg', alt: 'Coiffure bouclée' },
-    { src: 'img/coupe2.jpg', alt: 'Cheveux lisses' },
-    { src: 'img/chions.jpg', alt: 'Coiffure sophistiquée' },
-    { src: 'img/coupes.jpg', alt: 'Coupe courte' },
-    { src: 'img/tresses.jpg', alt: 'Coiffure événementielle' },
-    { src: 'img/tress2.jpg', alt: 'Perruque personnalisée' },
-    { src: 'img/tresse.jpg', alt: 'Coloration' },
-    { src: 'img/tresse1.jpg', alt: 'Style naturel' }
+    { src: 'img/coupe femme.webp', alt: 'Coiffure bouclée' },
+    { src: 'img/coupe2.webp', alt: 'Cheveux lisses' },
+    { src: 'img/chions.webp', alt: 'Coiffure sophistiquée' },
+    { src: 'img/coupes.webp', alt: 'Coupe courte' },
+    { src: 'img/tresses.webp', alt: 'Coiffure événementielle' },
+    { src: 'img/tress2.webp', alt: 'Perruque personnalisée' },
+    { src: 'img/tresse.webp', alt: 'Coloration' },
+    { src: 'img/tresse1.webp', alt: 'Style naturel' }
 ];
 
 // DOM Elements
