@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdf2f8"/>
+      <stop offset="100%" style="stop-color:#f9a8d4"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="50%" style="stop-color:#3d2314"/>
+      <stop offset="100%" style="stop-color:#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574"/>
+      <stop offset="100%" style="stop-color:#c4956a"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899"/>
+      <stop offset="100%" style="stop-color:#d946ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bg)"/>
+  <ellipse cx="300" cy="350" rx="200" ry="280" fill="url(#hair)"/>
+  <ellipse cx="300" cy="300" rx="120" ry="140" fill="url(#skin)"/>
+  <ellipse cx="300" cy="280" rx="100" ry="120" fill="url(#skin)"/>
+  <path d="M200 400 Q300 350 400 400 L400 750 L200 750 Z" fill="url(#dress)"/>
+  <ellipse cx="300" cy="260" rx="80" ry="90" fill="url(#skin)"/>
+  <circle cx="270" cy="250" r="8" fill="#1a1a1a"/>
+  <circle cx="330" cy="250" r="8" fill="#1a1a1a"/>
+  <path d="M280 290 Q300 300 320 290" stroke="#c4956a" stroke-width="3" fill="none"/>
+  <path d="M275 285 Q300 295 325 285" stroke="#1a1a1a" stroke-width="2" fill="none"/>
+  <path d="M260 200 Q300 150 340 200" stroke="url(#hair)" stroke-width="40" fill="none"/>
+  <path d="M220 250 Q200 350 220 450" stroke="url(#hair)" stroke-width="30" fill="none"/>
+  <path d="M380 250 Q400 350 380 450" stroke="url(#hair)" stroke-width="30" fill="none"/>
+  <circle cx="300" cy="180" r="15" fill="#d4af37"/>
+  <text x="300" y="185" text-anchor="middle" fill="white" font-size="12" font-weight="bold">B</text>
+</svg>

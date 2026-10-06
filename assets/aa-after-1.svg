@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <defs>
+    <linearGradient id="bgA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdf2f8"/>
+      <stop offset="100%" style="stop-color:#f9a8d4"/>
+    </linearGradient>
+    <linearGradient id="hairA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b45309"/>
+      <stop offset="50%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#b45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="600" fill="url(#bgA)"/>
+  <rect x="50" y="50" width="400" height="500" rx="20" fill="#ec4899" opacity="0.1"/>
+  <circle cx="250" cy="200" r="80" fill="url(#hairA)"/>
+  <path d="M170 220 Q150 350 180 450" stroke="url(#hairA)" stroke-width="35" fill="none"/>
+  <path d="M330 220 Q350 350 320 450" stroke="url(#hairA)" stroke-width="35" fill="none"/>
+  <circle cx="220" cy="190" r="8" fill="#1a1a1a"/>
+  <circle cx="280" cy="190" r="8" fill="#1a1a1a"/>
+  <path d="M225 230 Q250 245 275 230" stroke="#c4956a" stroke-width="3" fill="none"/>
+  <text x="250" y="450" text-anchor="middle" fill="#ec4899" font-size="24" font-weight="bold">APRÈS</text>
+  <text x="250" y="480" text-anchor="middle" fill="#d946ef" font-size="14">Cheveux bouclés rouge cuivré</text>
+</svg>
